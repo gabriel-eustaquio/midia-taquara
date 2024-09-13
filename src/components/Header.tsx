@@ -16,6 +16,7 @@ function Header(propriedades: THeader) {
           <li><NavLink to="/atalhos-iluminacao">Atalhos - Iluminação</NavLink></li>
           <li><NavLink to="/atalhos-projecao">Atalhos - Projeção</NavLink></li>
           <li><NavLink to="/lista-de-cores-para-louvor">Lista de cores para Louvor</NavLink></li>
+          <li><NavLink to="/setlist-louvor">Setlist Louvor</NavLink></li>
         </ul>
       </header>
     </>

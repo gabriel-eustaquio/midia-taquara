@@ -4,6 +4,7 @@ import AtalhosIluminacao from "./pages/AtalhosIluminacao";
 import AtalhosProjecao from "./pages/AtalhosProjecao";
 import Home from "./pages/Home";
 import ListaDeCoresParaLouvor from "./pages/ListaDeCoresParaLouvor";
+import SetlistLouvor from "./pages/SetlistLouvor";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/atalhos-iluminacao" element={<AtalhosIluminacao />}></Route>
           <Route path="/atalhos-projecao" element={<AtalhosProjecao />}></Route>
           <Route path="/lista-de-cores-para-louvor" element={<ListaDeCoresParaLouvor />}></Route>
+          <Route path="/setlist-louvor" element={<SetlistLouvor />}></Route>
         </Routes>
       </BrowserRouter>
     </>
