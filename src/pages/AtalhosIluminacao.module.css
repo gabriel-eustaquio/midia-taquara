@@ -1,0 +1,21 @@
+.atalhosTecla {
+  display: inline-block;
+  background-color: var(--cor-s6); 
+  padding: 8px 16px;
+  color: var(--cor-s1);
+}
+
+.atalhosLista {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tituloSecundario {
+  font-size: 1.5rem;
+  background-color: var(--cor-p1);
+  padding: 8px 16px;
+  display: inline-block;
+}
